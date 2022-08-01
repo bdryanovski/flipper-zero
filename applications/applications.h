@@ -68,3 +68,9 @@ extern const FlipperApplication FLIPPER_ARCHIVE;
  */
 extern const FlipperApplication FLIPPER_SETTINGS_APPS[];
 extern const size_t FLIPPER_SETTINGS_APPS_COUNT;
+
+/* Games list
+* Spawned by loader
+*/
+extern const FlipperApplication FLIPPER_GAMES[];
+extern const size_t FLIPPER_GAMES_COUNT;

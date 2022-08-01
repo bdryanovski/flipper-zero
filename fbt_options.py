@@ -73,6 +73,8 @@ FIRMWARE_APPS = {
         "passport",
         "system_settings",
         "about",
+        # Custom Games
+        "custom_games",
         # Plugins
         "basic_plugins",
         # Debug

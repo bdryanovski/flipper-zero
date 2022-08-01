@@ -47,5 +47,8 @@ void loader_show_menu();
 /** Show primary loader */
 void loader_update_menu();
 
+/** Show games loader */
+void loader_show_game_menu();
+
 /** Show primary loader */
 FuriPubSub* loader_get_pubsub(Loader* instance);
