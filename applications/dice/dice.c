@@ -145,7 +145,7 @@ static void dice_render_callback(Canvas* const canvas, void* ctx) {
             sprintf(strings[0], "%s at %s", diceType[0], rollTime[0]);
             uint8_t d1_i = rand() % COUNT_OF(deckOne);
             // INITIALIZE WITH PLACEHOLDERS TO AVOID MAYBE UNINITIALIZED ERROR
-            for(int i = 0; i < COUNT_OF(deckOne); i++) {
+            for(size_t i = 0; i < COUNT_OF(deckOne); i++) {
                 if(i < d1_i) {
                     sprintf(deckTwo[i], "%s", deckOne[i]);
                 } else if(i > d1_i) {

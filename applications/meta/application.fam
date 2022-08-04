@@ -39,14 +39,6 @@ App(
         "bt_hid",
         "APPS_BarcodeGenerator",
         "Clock",
-    ],
-)
-
-App(
-    appid="custom_games",
-    name="Custom applications for games menu",
-    apptype=FlipperAppType.METAPACKAGE,
-    provides=[
 	    "GAME_Dice",
     ],
 )
